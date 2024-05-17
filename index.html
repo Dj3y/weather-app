@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script async type="module" src="assets/js/script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Weather App</h1>
+        <p>dark mode</p>
+    </header>
+    <main>
+        <div id="div-recherhe">
+            <input id="input-city" type="text" placeholder="rechercher une ville">
+            <button id="btn-search">Chercher</button>
+        </div>
+        <!-- Section pour afficher la temperature d'aujourd'hui -->
+        <section id="display-result">
+            <h2 id="city-name"></h2>
+            <!-- <p id="date-jour"></p> -->
+            <div id="icon-temperature">
+                <img id="img-weather" src="" alt="">
+                <p id="temperature"></p>
+            </div>
+            <div id="detail-temperature-jour">
+                <p id="temperature-minimum"></p>
+                <p id="temperature-maximum"></p>
+            </div>
+        </section>
+        <div id="temp-jours-suivant">
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
