@@ -1,6 +1,6 @@
 import {displayResult} from "./displayResult.js";
 
-// fonction pour récuper l'api 
+// fonction pour récupérer l'api 
 export function recupApi(){
     const cityName = document.getElementById("input-city").value;
     const apiKey = "314b05dedcf168f888186a0791c643ce";
@@ -31,8 +31,8 @@ btnSearch.addEventListener('click', ()=> {
 // ajout d'un évenement pour la touche 'enter'
 document.getElementById('input-city').addEventListener('keypress', function(event) {
     if (event.key === 'Enter') {
-      recupApi();
-      divResultat.style.display = "block";
+        recupApi();
+        divResultat.style.display = "block";
     }
 });
 
