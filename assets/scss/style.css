@@ -4,8 +4,6 @@ body {
   color: #c95858;
   padding: 0;
   background: rgb(243, 118, 118);
-  background: -moz-linear-gradient(350deg, rgb(243, 118, 118) 0%, rgb(243, 152, 118) 50%, rgb(254, 227, 188) 100%);
-  background: -webkit-linear-gradient(350deg, rgb(243, 118, 118) 0%, rgb(243, 152, 118) 50%, rgb(254, 227, 188) 100%);
   background: linear-gradient(350deg, rgb(243, 118, 118) 0%, rgb(243, 152, 118) 50%, rgb(254, 227, 188) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f37676",endColorstr="#fee3bc",GradientType=1);
   background-repeat: no-repeat;
@@ -31,7 +29,7 @@ header #dark_mode {
   background-color: rgb(254, 227, 188);
   border: 0.15em solid #f37676;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-  padding: 0% 1%;
+  padding: 1% 2%;
   border-radius: 10px;
   height: 50px;
 }
@@ -68,7 +66,7 @@ main #div-recherhe button {
   background-color: rgb(254, 227, 188);
   border: 0.15em solid #f37676;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-  padding: 0% 5%;
+  padding: 0% 4%;
   border-radius: 10px;
   height: 50px;
 }
@@ -156,8 +154,6 @@ main #temp-jours-suivant .details-temp-jour-suivant {
 }
 .darkmode {
   background: rgb(28, 27, 51);
-  background: -moz-linear-gradient(360deg, rgb(28, 27, 51) 0%, rgb(46, 51, 90) 50%, rgb(88, 96, 157) 100%);
-  background: -webkit-linear-gradient(360deg, rgb(28, 27, 51) 0%, rgb(46, 51, 90) 50%, rgb(88, 96, 157) 100%);
   background: linear-gradient(360deg, rgb(28, 27, 51) 0%, rgb(46, 51, 90) 50%, rgb(88, 96, 157) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1c1b33",endColorstr="#58609d",GradientType=1);
   background-repeat: no-repeat;
@@ -172,7 +168,7 @@ main #temp-jours-suivant .details-temp-jour-suivant {
   background-color: rgb(156, 165, 231);
   border: 0.15em solid rgb(28, 27, 51);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-  padding: 0% 1%;
+  padding: 1% 2%;
   border-radius: 10px;
 }
 .darkmode #div-recherhe input {
@@ -195,4 +191,4 @@ main #temp-jours-suivant .details-temp-jour-suivant {
   background-color: rgb(28, 27, 51);
   border: 0.15em solid rgb(156, 165, 231);
   transition: 1s;
-}
+}/*# sourceMappingURL=style.css.map */

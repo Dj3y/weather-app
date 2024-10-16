@@ -10,13 +10,13 @@ export function darkMode(){
         document.body.classList.add('darkmode');
         localStorage.setItem('darkMode', 'active');
         // img.setAttribute('src', 'assets/images/sun.svg');
-        btndDarkMode.textContent = "desactive dark mode";
+        btndDarkMode.textContent = "light mode";
     }
     const desibleDarkMode = () => {
         document.body.classList.remove('darkmode');
         localStorage.setItem('darkMode', null);
     //     img.setAttribute('src', 'assets/images/moon.svg');
-    btndDarkMode.textContent = "active dark mode";
+    btndDarkMode.textContent = "dark mode";
     }
     if (darkMode === "active"){
         activeDarkMode();        
